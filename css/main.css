@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url(../img/hi-tech-concepts-on-blue-background-header.jpg);
+    background-size: cover;
+    color: white;
+    opacity: .8;
+}
+
+.jumbotron h1 p{
+    opacity: 1;
+}
+
+.jumbotron li{
+    color: black;
+}
+
+.imgs{
+    height: 400px;
+    width: 1000px;
+}
+
+.logoImg{
+    border-radius: 100px;
+}
+
+.navbar a{
+    transition: 1s;
+}
+.navbar a:hover{
+    font-size: 24px;
+}

@@ -9,16 +9,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <script src="css\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
-    <style>
-        .imgs{
-            height: 400px;
-            width: 1000px;
-        }
-    
-    
-    </style>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
  
@@ -26,8 +19,10 @@
 </head>
 <body>
 
+
+        <!--Nav-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">LOGO</a>
+                <img class="logoImg" src= "https://placeimg.com/100/100/tech" alt="">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item offset-3">
                       <a class="nav-link" href="#">Contact</a>
@@ -50,6 +45,7 @@
                 </div>
         </nav>
 
+        <!--Header-->
         <div class="jumbotron">
                 <h1 class="display-4">Lorem Ispum</h1>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolore soluta excepturi, illum natus id placeat temporibus quidem hic doloribus voluptatibus, sed nesciunt dolores doloremque magnam delectus ullam asperiores. Quibusdam..</p>
@@ -64,15 +60,16 @@
                 <div class="col-6 offset-1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui praesentium ipsa, vel ratione deserunt repudiandae cum quasi fuga modi sunt ipsum necessitatibus voluptatem, similique iusto quos vitae voluptatum. Animi.</p></div>
             </div> -->
 
-            <div class="container">
+        <!--Main article-->
+        <article class="container">
                 <div class="row">
                     <div class="col-9">
                         <div class="jumbotron jumbotron-fluid">
                             <div class="container">
                                 <h1 class="display-4">Main Article</h1>
                                 <div class="row">
-                                    <div class="col-4">IMG</div>
-                                    <div class="col-8">Sub header</div>
+                                    <div class="col-4"><img src="https://placeimg.com/150/150/nature" alt=""></div>
+                                    <h2 class="col-8">Sub header</h2>
                                 </div>
                                 <div class="row">
                                     <div class="col-8 offset-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nostrum iure numquam rem aut. Tempora, quibusdam? Assumenda, qui? Officia nam eos amet quo deleniti enim at minus, pariatur veritatis rem.</div>
@@ -87,22 +84,23 @@
                                 <div class="col-12"><h1>Recent</h1></div> 
                             </div>
                             <div class="row">
-                                <div class="col-4">IMG</div>
-                                <div class="col-8">text</div>
+                                <div class="col-4"><img src="https://placeimg.com/80/80/nature" alt=""></div>
+                                <div class="col-8">Dummy text</div>
                             </div>
                             <div class="row">
-                                <div class="col-4">IMG</div>
-                                <div class="col-8">text</div>
+                                <div class="col-4"><img src="https://placeimg.com/80/80/nature" alt=""></div>
+                                <div class="col-8">Dummy text</div>
                             </div>
                             <div class="row">
-                                <div class="col-4">IMG</div>
-                                <div class="col-8">text</div>
+                                <div class="col-4"><img src="https://placeimg.com/80/80/nature" alt=""></div>
+                                <div class="col-8">Dummy text</div>
                             </div>
                     </div>
                 </div>
-            </div>
+            </article>
             
-            <div class="container">
+        <!--Carousel-->
+        <div class="container">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -125,39 +123,45 @@
                             </a>
                     </div>
                 
-            </div>
-
-
-
-        
-
-        
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-3 offset-2">
-                    <div class="row">
-                        <div class="col-3"><i class="fab fa-facebook fa-3x"></i></div>
-                        <div class="col-3"><i class="fab fa-twitter-square fa-3x"></i></div>
-                        <div class="col-3"><i class="fab fa-linkedin fa-3x"></i></div>
-                        <div class="col-3"><i class="fab fa-github-square fa-3x"></i></div>
-                    </div>
-                </div>
-                <div class="col-3 offset-7">
-                    <div class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action active">
-                                  Cras justo odio
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-                                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                                <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
-                    </div>
-                </div>
-            
-            </div>
         </div>
+
+        <!--footer-->
+        <footer class="jumbotron">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 offset-1">
+                        <div class="row">
+                            <div class="col-3"><i class="fab fa-facebook fa-3x"></i></div>
+                            <div class="col-3"><i class="fab fa-twitter-square fa-3x"></i></div>
+                            <div class="col-3"><i class="fab fa-linkedin fa-3x"></i></div>
+                            <div class="col-3"><i class="fab fa-github-square fa-3x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-3 offset-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+
+                </div>
+            </div>
+        </footer>
+
+        
+        
+
+
+
+        
+
+        
+
+        
+        
 
     
     
